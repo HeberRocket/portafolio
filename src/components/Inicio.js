@@ -6,10 +6,14 @@ export const Inicio = () => {
   return (
     <div className='home'>
 
-      <h1>
-        Hola, soy <strong>Heber Acevedo</strong> y soy programador con un fuerte enfoque en el area backend.
-        Ofrezco mis servicios de <strong>programacion</strong> y <strong>desarrollo </strong> 
-         en proyectos web.
+      <h1>Me presento, soy <span>Heber Acevedo</span>, desarrollador 
+      fullstack especializado en backend. He trabajado mayormente con Java, participando 
+      en el desarrollo de soluciones robustas y escalables. Además, cuento con experiencia 
+      en proyectos con Python y poseo sólidos conocimientos en HTML, CSS y JavaScript, 
+      lo que me permite crear aplicaciones web eficientes y bien estructuradas. 
+      Ofrezco mis servicios de desarrollo y programación para proyectos tecnológicos que 
+ requieran calidad, rendimiento y escalabilidad.
+        
       </h1>
 
       <h2 className='title'>
@@ -21,7 +25,7 @@ export const Inicio = () => {
         <h2 className='heading'>Algunos de mis proyectos</h2>
         
 
-        <ListadoTrabajos limite="2" />
+        <ListadoTrabajos limite={2} />
       </section>
     </div>
   )

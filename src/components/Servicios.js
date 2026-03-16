@@ -16,12 +16,12 @@ export const Servicios = () => {
             fluida para los usuarios. Estoy comprometido con la mejora continua y listo 
             para asumir nuevos desafíos en un entorno profesional.</p>
           <section className='iconos'>
-            <img src="/images/java.png" width="120" height="120" alt="Java" />
-            <img src="/images/python.png" width="120" height="120" alt="Python" />
-            <img src="/images/springboot.png" width="120" height="120" alt="Springboot" />
+            <img src={`${process.env.PUBLIC_URL}/img/java.png`} width="120" height="120" alt="Java" />
+            <img src={`${process.env.PUBLIC_URL}/img/python.png`} width="120" height="120" alt="Python" />
+            <img src={`${process.env.PUBLIC_URL}/img/springboot.png`} width="120" height="120" alt="Springboot" />
             
-            <img src="/images/mysql.png" width="120" height="120" alt="Mysql" />
-            <img src="/images/postgresql.png" width="120" height="120" alt="Postgresql" />
+            <img src={`${process.env.PUBLIC_URL}/img/mysql.png`} width="120" height="120" alt="Mysql" />
+            <img src={`${process.env.PUBLIC_URL}/img/postgresql.png`} width="120" height="120" alt="Postgresql" />
             
           </section>
             
@@ -36,11 +36,13 @@ export const Servicios = () => {
             Además, entiendo la importancia de una comunicación eficiente con el backend, 
             asegurando una integración sin problemas entre ambas partes.</p>
             <section className='iconosback'>
-            <img src="/images/html.png" width="120" height="120"/>
-            <img src="/images/css.png" width="120" height="120"/>
-            <img src="/images/javascript.png" width="120" height="120"/>
-            <img src="/images/react.png" width="120" height="120"/>
+            <img src={`${process.env.PUBLIC_URL}/img/html.png`} width="120" height="120"/>
+            <img src={`${process.env.PUBLIC_URL}/img/css.png`} width="120" height="120"/>
+            <img src={`${process.env.PUBLIC_URL}/img/javascript.png`} width="120" height="120"/>
+            <img src={`${process.env.PUBLIC_URL}/img/react.png`} width="120" height="120"/>
             </section>
+
+        
 
         </article>
 

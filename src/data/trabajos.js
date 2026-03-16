@@ -16,7 +16,7 @@ export const trabajos = [
         'descripcion': 'Aqui tenemos una pagina que medienate la manipulacion del Document Object Model podemos cambiar la imagen visible'
     },
     {
-        'id': 'Literalura',
+        'id': 'literalura',
         'nombre': 'Practica spring',
         'url':'https://github.com/HeberRocket/literalura.git',
         'tecnologias': 'JAVA, Spring, PostgreSQL',

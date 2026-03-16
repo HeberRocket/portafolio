@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const numero = "524922510600"; // Número en formato internacional sin "+"
 const mensaje = "Hola, me gustaría agendar una entrevista para saber mas sobre tu trayectoria y ofrecerte un trabajo!";
 
@@ -14,20 +15,21 @@ export const Contacto = () => {
 
       <section className='contactou'>
       <a href="https://www.linkedin.com/in/heber-acevedo/" target="_blank" rel="noopener noreferrer">
-        <img src="/images/linkedin.png" width="120" height="120" alt="LinkedIn" />
+        <img src={`${process.env.PUBLIC_URL}/img/linkedin.png`} width="120" height="120" alt="LinkedIn" />
       </a>
       <a href="https://github.com/HeberRocket/" target="_blank" rel="noopener noreferrer">
-        <img src="/images/github.png" width="120" height="120" alt="Github" />
+        <img src={`${process.env.PUBLIC_URL}/img/github.png`} width="120" height="120" alt="Github" />
       </a>
       
       <a href="mailto:elmasivo5@gmail.com?subject=Contacto&body=Hola, quiero saber mas de ti en una 
        entrevista para un puesto de trabajo" 
          target="_blank" rel="noopener noreferrer">
-        <img src="/images/gmail.png" width="120" height="120" alt="Github" />
+        <img src={`${process.env.PUBLIC_URL}/img/gmail.png`} width="120" height="120" alt="Gmail" />
       </a>
+      
 
       <a href={linkWhatsApp} target="_blank" rel="noopener noreferrer">
-        <img src="/images/whatsapp.png" width="110" height="110" alt="whatsapp" />
+        <img src={`${process.env.PUBLIC_URL}/img/whatsapp.png`} width="110" height="110" alt="whatsapp" />
       </a>
 
 
